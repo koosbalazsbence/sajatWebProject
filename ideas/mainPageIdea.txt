@@ -1,0 +1,19 @@
+Weboldal:
+ - HTML5
+ - CSS3
+ - Javascript
+ - Bootstrap 5.3
+ 
+Főoldal ötletek
+
+- Fejléc: Navbar (Főoldal, Bemutatkozás, Projektek, Munkavállalás, Elérhetőség)
+    - Fejléc logó + név 
+    - Görgetésnél: Navbar sticky és 
+    keyframes ease-in 
+--- IDEA (https://copyrightwitness.com/protect/logo_copyright) ---
+- Ízelítő a további weblapokból
+Képek, videók
+
+
+- Footer: Szerzői jog, Github Link
+
