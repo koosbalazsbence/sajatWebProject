@@ -4,8 +4,32 @@ Weboldal:
  - Javascript
  - Bootstrap 5.3
  
-Főoldal ötletek
+FELADAT: 
+2025 decemberében járunk és úgy döntötél, hogy a sikeres szakma megszerzés és az utazások után saját vállalkozást indítasz mint szoftverfejlesztő. 
 
+A vállalkozáshoz megvan már mindened, a neved, az adószámod, a székhelyed, a vállalkozási email címed, mostmár 
+szükséged lesz egy saját weboldalra ahol legjobb referencia/projektmunkáidból is bemutatsz néhányat.
+
+Készítsd el a vállalkozásod weboldalát, és próbálj valami óra/munkadíjat is kitalálni amit relevánsnak gondolnál. 
+
+FONTOS:
+ - név
+ - adószám
+ - üzleti e-mail cím
+ + Bemutatni referencia/projekt munkát
+ + reális óra/munkadíj
+
+ADATOK:
+Koós Balázs Bence
+14123081-4-24
+contact@koosbalazs.com
+
+Referencia munkák:
+ -- Lehet Python, C#, HTML, Javascript, CSS, Projektek
+
+Ötletek
+    Kurzor egy speciális kurzor lesz
+s
 - Fejléc: Navbar (Főoldal, Bemutatkozás, Projektek, Munkavállalás, Elérhetőség)
     - Fejléc logó + név 
     - Görgetésnél: Navbar sticky és 
@@ -17,3 +41,5 @@ Képek, videók
 
 - Footer: Szerzői jog, Github Link
 
+PÉLDA
+Copyright ©2025 PixelPioneer LLC

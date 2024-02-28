@@ -1,0 +1,52 @@
+
+*{
+    user-select: none;
+    cursor: url('../logos/mouse.png'), auto;
+}
+
+body{
+    background: hsl(0, 0%, 96%);
+}
+h1,h2{
+    text-align: center;
+}
+.navbar{
+    background-color: hsl(0, 0%, 5%);
+    padding: 0;
+}
+.navbar .nav-link{
+    font-size: 1.3rem;
+    margin-inline: 1rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E8E8E8;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.navbar .nav-link{
+    font-size: 1.3rem;
+    margin-inline: 1rem;
+    padding: 0.2rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E8E8E8;
+    font-weight: bold;
+    position: relative;
+}
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: #E8E8E8;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+    transform: translate3d(-15%, 0, 0);
+}
+.nav-link:hover::after,
+.nav-link:focus::after{
+    opacity: 1; 
+    transform: translate3d(0, 0, 0);
+}
