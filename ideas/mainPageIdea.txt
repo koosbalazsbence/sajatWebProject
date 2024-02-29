@@ -29,7 +29,10 @@ Referencia munkák:
 
 Ötletek
     Kurzor egy speciális kurzor lesz
-s
+
+FEJLÉC 
+Hamburger menü + megjelenés megoldása 
+
 - Fejléc: Navbar (Főoldal, Bemutatkozás, Projektek, Munkavállalás, Elérhetőség)
     - Fejléc logó + név 
     - Görgetésnél: Navbar sticky és 
