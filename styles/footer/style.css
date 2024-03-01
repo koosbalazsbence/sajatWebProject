@@ -30,53 +30,6 @@
 .navbar>ul>li>a:hover{
     color: #c6c317;
 }
-
-
-.introduce{
-    height: 70vh;
-    padding: calc(5rem - 2.5rem);
-    /* margin-block: 1.5rem; */
-    background: #D9D9D9;
-}
-.container{
-    height: 576px;
-    width: 1300px;
-    max-width: 100%;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
-}
-.container>.circle{
-    /* width: 270px;
-    height: 270px; */
-    width: 300px;
-    height: 300px;
-    max-width: 100%;
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-inline: calc(1330px - 765px * 1.7);
-    margin-top: calc(576px - 288px * 1.5);
-    float: left;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
-    background: #D9D9D9;
-    /* background: #D9D9D9 url('../../images/profil_picture.jpg') center/cover no-repeat; */
-    pointer-events: none;
-}
-.container>#mainText{
-    font-size: 48px;
-    display: inline;
-    /* text-align: center; */
-    margin-inline: 4rem;
-    padding: 0;
-}
-.container>.container-section-inner{
-    width: 700px;
-    height: 300px;
-    margin-inline: 25rem;
-    margin-block: 4.5rem;
-    background: #D9D9D9;
-}
-
 .navbar>ul>li>input{
     display: flex;
     text-align: right;
@@ -98,6 +51,75 @@
     margin: 0;
     width: 1rem;
     height: 1rem;
+}
+
+
+.introduce{
+    height: 70vh;
+    max-height: 100%;
+    overflow: hidden;
+    padding: calc(5rem - 2.5rem);
+    /* margin-block: 1.5rem; */
+    background: #D9D9D9;
+}
+.container{
+    height: 576px;
+    width: 1300px;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+.container>.circle{
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-inline: calc(1330px - 765px * 1.7);
+    margin-top: calc(576px - 288px * 1.5);
+    float: left;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    background: #D9D9D9;
+    /* background: #D9D9D9 url('../../images/profil_picture.jpg') center/cover no-repeat; */
+    pointer-events: none;
+}
+.container>h1{
+    font-size: 48px;
+    display: inline;
+    margin-inline: 4rem;
+    padding: 0;
+}
+.container>.container-section-inner{
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+    margin-inline: calc(1330px - 576px * 1.6);
+    margin-top: calc(576px - 335px * 1.5);
+    background: #D9D9D9;
+}
+.container>button{
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-inline: calc(1330px - 576px * 1.6);
+    margin-top: calc(576px - 375px * 1.5);
+    background: #2FCED0;
+    box-shadow: 1px 1px 5px;
+    font-family: "Inter", sans-serif;
+    border: 0;
+}
+
+.referenceWorks{
+    height: 90vh;
+    max-height: 100%;
+    padding: calc(5rem - 2.5rem);
+    background: #F4F4F4;
+}
+.referenceWorks>h2{
+    font-size: 3rem;
 }
 
 /* Footer */
