@@ -9,6 +9,7 @@
     background: #2F2F2F;
     height: 75px;
     max-width: 100%;
+    width: 100vw;
     padding-top: 23px;
 }
 
@@ -16,6 +17,7 @@
     display: flex;
     gap: 31px;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .navbar>ul>li>a{
